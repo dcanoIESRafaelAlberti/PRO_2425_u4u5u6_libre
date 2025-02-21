@@ -1,8 +1,8 @@
 plugins {
-    kotlin("jvm") version "1.9.22"
+    kotlin("jvm") version "2.0.20"
 }
 
-group = "org.practicatrim2"
+group = "es.prog2425.u4u5u6libre"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation(kotlin("test"))
 }
 
 tasks.test {
